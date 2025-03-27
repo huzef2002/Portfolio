@@ -9,12 +9,12 @@ function Background() {
             <div className="fixed top-0 left-0 w-full h-full">
                 <Particles 
                     particleColors={['#afa1a1', '#77777']}
-                    particleCount={50}
-                    particleSpread={5}
+                    particleCount={65}
+                    particleSpread={25}
                     speed={0.1}
-                    particleBaseSize={500}
-                    moveParticlesOnHover={false}
-                    alphaParticles={true}
+                    particleBaseSize={1000}
+                    moveParticlesOnHover={true}
+                    alphaParticles={false}
                     disableRotation={false}
                 />
             </div>
