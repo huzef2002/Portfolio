@@ -2,11 +2,11 @@ import React from 'react';
 
 function Home() {
     return (
-        <div className="col md:flex justify-center items-center gap-20 h-screen w-screen">
+        <div className="col md:flex justify-center items-center gap-20 h-screen w-screen my-10">
 
             <div className=" md:w-[35%] flex justify-center items-center pt-3">
                 <div className='border-1 border-white rounded-4xl p-10 pb-0 shadow-lg shadow-cyan-500/50'>
-                    <img className='h-60 w-40 md:h-80 md:w-60' src='/Huzef.png' ></img>
+                    <img className='h-55 w-40 md:h-80 md:w-60' src='/Huzef.png' ></img>
                 </div>
             </div>
 

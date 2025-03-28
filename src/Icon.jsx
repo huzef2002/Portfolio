@@ -32,7 +32,7 @@ function Icon() {
                   transition-all duration-300 transform hover:scale-110 hover:bg-black/20 hover:text-white'> */}
         {
           List.map((items, index) => {
-            return (<a className=' collapse md:visible flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
+            return (<a className='  md:visible flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
                   // transition-all duration-300 transform hover:scale-110 hover:bg-black/20 ' key={index} target='_blank' href={items.href}>
               {items.icon}
             </a>)

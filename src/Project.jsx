@@ -18,8 +18,8 @@ function Project() {
 
     ]
     return (
-        <div className='flex scroll-smooth flex-nowrap overflow-x-scroll h-screen w-screen'>
-            <div className='col md:flex justify-center items-center gap-20 h-full w-full top-0 bottom-0 '>
+        <div className='flex scroll-smooth flex-nowrap overflow-x-scroll h-screen w-screen [&::-webkit-scrollbar]:hidden'>
+            <div className='col md:flex justify-center items-center gap-20 h-full w-full top-0 bottom-0'>
 
 
                 <div className='md:w-130 md:ms-40 flex justify-center items-center mx-10'>

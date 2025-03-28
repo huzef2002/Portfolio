@@ -10,7 +10,7 @@ function Background() {
                 <Particles 
                     particleColors={['#afa1a1', '#77777']}
                     particleCount={65}
-                    particleSpread={25}
+                    particleSpread={26}
                     speed={0.1}
                     particleBaseSize={1000}
                     moveParticlesOnHover={true}
