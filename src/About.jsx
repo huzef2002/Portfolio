@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaReact, FaGitAlt, FaRust } from "react-icons/fa";
-import { SiTailwindcss, SiCplusplus, SiRedux } from "react-icons/si";
+import { SiTailwindcss, SiCplusplus, SiRedux, SiFirebase } from "react-icons/si";
 
 function About() {
     const skills = [
@@ -14,6 +14,7 @@ function About() {
         { Name: "C & C++", Icon: SiCplusplus },
         { Name: "Git & GitHub", Icon: FaGitAlt },
         { Name: "APIs", Icon: FaRust },
+        { Name: "Firebase", Icon: SiFirebase },
     ];
     return (
         <>

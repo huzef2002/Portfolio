@@ -10,19 +10,15 @@ function Icon() {
     },
     {
       icon: <FaGithub size={20} />,
-      href: 'https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'
+      href: 'https://github.com/huzef2002'
     },
     {
       icon: <FaInstagram size={20} />,
-      href: 'https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'
-    },
-    {
-      icon: <FaGithub size={20} />,
-      href: 'https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'
+      href: '/'
     },
     {
       icon: <FaTwitter size={20} />,
-      href: 'https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'
+      href: 'https://github.com/huzef2002'
     },
   ]
   return (
@@ -30,50 +26,14 @@ function Icon() {
 
       {/* <div className='flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
                   transition-all duration-300 transform hover:scale-110 hover:bg-black/20 hover:text-white'> */}
-        {
-          List.map((items, index) => {
-            return (<a className='  md:visible flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
+      {
+        List.map((items, index) => {
+          return (<a className='  md:visible flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
                   // transition-all duration-300 transform hover:scale-110 hover:bg-black/20 ' key={index} target='_blank' href={items.href}>
-              {items.icon}
-            </a>)
-          })
-        }
-      {/* </div> */}
-
-      {/* <div className='flex items-center justify-center rounded-full p-3 border  border-white shadow-md shadow-cyan-500/50 
-                  transition-all duration-300 transform hover:scale-110 hover:bg-black/20 hover:text-white'>
-        <a target='_blank' href='https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'>
-          <FaLinkedinIn size={20} />
-        </a>
-      </div>
-
-      <div className='flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
-                  transition-all duration-300 transform hover:scale-110 hover:bg-black/20 hover:text-white'>
-        <a target='_blank' href='https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'>
-          <FaGithub size={20} />
-        </a>
-      </div>
-
-      <div className='flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
-                  transition-all duration-300 transform hover:scale-110 hover:bg-black/20 hover:text-white'>
-        <a target='_blank' href='https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'>
-          <FaInstagram size={20} />
-        </a>
-      </div>
-
-      <div className='flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
-                  transition-all duration-300 transform hover:scale-110 hover:bg-black/20 hover:text-white'>
-        <a target='_blank' href='https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'>
-          <FaTwitter size={20} />
-        </a>
-      </div>
-
-      <div className='flex items-center justify-center rounded-full p-3 border border-white  shadow-md shadow-cyan-500/50
-                  transition-all duration-300 transform hover:scale-110 hover:bg-black/20 hover:text-white'>
-        <a target='_blank' href='https://www.linkedin.com/in/mohammad-huzef-shaikh-677a35266/'>
-          <FaLinkedinIn size={20} />
-        </a>
-      </div> */}
+            {items.icon}
+          </a>)
+        })
+      }
     </div>
   );
 }

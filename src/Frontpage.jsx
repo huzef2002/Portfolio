@@ -9,13 +9,12 @@ import Contact from './Contact';
 function Frontpage() {
   return (
     <div className='relative z-10 text-black items-center h-screen w-screen overflow-x-hidden'>
-      <Navebar/>
+      <Navebar />
       <Icon />
-
       <Home />
       <About />
-      <Project/>
-      <Contact/>
+      <Project />
+      <Contact />
     </div>
   );
 }
