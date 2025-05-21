@@ -1,4 +1,5 @@
 import React from 'react';
+import { GrInstallOption } from "react-icons/gr";
 
 function Home() {
     return (
@@ -20,6 +21,7 @@ function Home() {
                     make me a great fit for any development team. I am enthusiastic about contributing to innovative projects and
                     consistently eager to embrace new technologies within the field.
                 </p>
+                <a href='https://drive.google.com/file/d/1Ms_PLRJE4XQX6NKm8B2ZwCKfVKQ27tZH/view?usp=drive_link' download className='flex mt-5 text-orange-400 font-bold'>RESUME.<span className='ms-2 justify-center items-center flex'> <GrInstallOption/></span></a>
             </div>
         </div>
     );
