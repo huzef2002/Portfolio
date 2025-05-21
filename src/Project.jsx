@@ -17,11 +17,17 @@ function Project() {
         },
         {
             title: "Realezi",
-            description:
-                "Developed a responsive RealEstate web page using HTML, CSS, Bootstrap, and JavaScript to showcase design and development skills for a RealEstate HR.",
+            description:"Developed a responsive weather forecast web app using React.js, Tailwind CSS, and a weather API to display real-time and 7-day weather data with location-based search and dynamic condition visuals.",
             imgSrc: "./Realezi.png",
             liveLink: "realezi-frontend-project.vercel.app",
             githubLink: "https://github.com/huzef2002/realezi-frontend-project",
+        },
+        {
+            title: "Real-Time Weather Forecast Application",
+            description: "Developed a mini document management app using React, Tailwind CSS, and JavaScript to handle various file types and practice real-world state management.",
+            imgSrc: "./weather-app.png",
+            liveLink: "weather-app-orcin-psi-28.vercel.app",
+            githubLink: "https://github.com/huzef2002/Weather-App",
         },
         {
             title: "Document Handler",
