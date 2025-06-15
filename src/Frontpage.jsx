@@ -14,8 +14,8 @@ function Frontpage() {
       <Icon />
       <section id="home"><Home /></section>
       <section id="about"><About /></section>
-      <section id="project"><Project /></section>
       <section id="experience"><Experience /></section>
+      <section id="project"><Project /></section>
       <section id="contact"><Contact /></section>
     </div>
   );
