@@ -15,6 +15,8 @@ function About() {
         { Name: "Git & GitHub", Icon: FaGitAlt },
         { Name: "APIs", Icon: FaRust },
         { Name: "Firebase", Icon: SiFirebase },
+        { Name: "Next.js", Icon: FaReact } ,
+        {Name: "Typescript", Icon: FaJs },
     ];
     return (
         <>

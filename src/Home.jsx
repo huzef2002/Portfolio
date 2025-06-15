@@ -16,12 +16,13 @@ function Home() {
                     Hi,<br /> I am Huzef<br /><span className='text-orange-400'>Frontend Developer</span>
                 </h1>
                 <p className="mt-4 text-sm font-stretch-50%">
-                    As a web developer, I possess robust expertise in HTML, CSS, JavaScript, and React.js.
-                    My commitment to staying abreast of industry trends, coupled with collaborative and problem-solving skills,
-                    make me a great fit for any development team. I am enthusiastic about contributing to innovative projects and
-                    consistently eager to embrace new technologies within the field.
+                    Frontend Developer specializing in Next.js, React.js, and API integration, with hands-on experience in building
+                    scalable web applications. Currently interning at HealthLatic Life Style Company, contributing to a health-focused
+                    platform using Next.js, CSS, and backend integration (Express.js). Passionate about leveraging AI tools (GitHub
+                    Copilot, ChatGPT, DeepSeek for code optimization) to streamline development. Strong collaborator in Agile teams,
+                    with expertise in responsive design, state management, and cross-functional teamwork.
                 </p>
-                <a href='https://drive.google.com/file/d/1Ms_PLRJE4XQX6NKm8B2ZwCKfVKQ27tZH/view?usp=drive_link' download className='flex mt-5 text-orange-400 font-bold'>RESUME.<span className='ms-2 justify-center items-center flex'> <GrInstallOption/></span></a>
+                <a href='https://drive.google.com/file/d/1lfnymUDzlUCKgieDkf4rFNrMQ6Td73LD/view?usp=drive_link' download className='flex mt-5 text-orange-400 font-bold'>RESUME.<span className='ms-2 justify-center items-center flex'> <GrInstallOption /></span></a>
             </div>
         </div>
     );
