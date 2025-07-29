@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 function Navbar() {
     const [activeSection, setActiveSection] = useState('home');
-    
+
     const navItems = [
         { name: 'Home', id: 'home' },
         { name: 'About', id: 'about' },
@@ -32,7 +32,7 @@ function Navbar() {
                 if (section) {
                     const sectionTop = section.offsetTop;
                     const sectionHeight = section.clientHeight;
-                    
+
                     if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
                         setActiveSection(section.id);
                     }
@@ -50,17 +50,13 @@ function Navbar() {
                 <div key={index} className="group relative">
                     <button
                         onClick={() => handleClick(item.id)}
-                        className={`-rotate-90 md:text-2xl transition-all duration-300 ${
-                            activeSection === item.id 
-                                ? 'text-orange-400 font-bold underline' 
+                        className={`-rotate-90 md:text-2xl transition-all duration-300 ${activeSection === item.id
+                                ? 'text-orange-400 font-bold underline'
                                 : 'text-gray-300 hover:text-orange-300'
-                        }`}
+                            }`}
                     >
                         {item.name}
                     </button>
-                    <span className={`absolute left-10 top-1/2 transform -translate-y-1/2 w-2 h-2 rounded-full bg-orange-400 opacity-0 group-hover:opacity-100 transition-opacity ${
-                        activeSection === item.id ? 'opacity-100' : ''
-                    }`}></span>
                 </div>
             ))}
         </div>

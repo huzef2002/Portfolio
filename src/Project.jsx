@@ -6,18 +6,23 @@ import { BiLinkExternal } from "react-icons/bi";
 function Project() {
 
     const CardData = [
-
+        {
+            title: "Excel AI Reader Tool",
+            description: "Developed a full-stack AI tool that allows users to upload Excel files, parse tabular data, and ask natural language questions about it, using Google Gemini Api",
+            imgSrc: "./Excel.png",
+            liveLink: "https://ai-tool-excel.vercel.app/",
+            githubLink: "https://github.com/huzef2002/Ai_Tool_Excel",
+        },
         {
             title: "Eye Glasses",
-            description:
-                "Built a fully functional optical website using React and Redux for a friend’s business, designed for real-world use and optimized for market readiness.",
+            description: "Built a fully functional optical website using React and Redux for a friend’s business, designed for real-world use and optimized for market readiness.",
             imgSrc: "./Optical.png",
             liveLink: "https://eye-glasses-sooty.vercel.app/#features",
             githubLink: "https://github.com/huzef2002/Eye-Glasses",
         },
         {
             title: "Realezi",
-            description:"Developed a responsive weather forecast web app using React.js, Tailwind CSS, and a weather API to display real-time and 7-day weather data with location-based search and dynamic condition visuals.",
+            description: "Developed a responsive weather forecast web app using React.js, Tailwind CSS, and a weather API to display real-time and 7-day weather data with location-based search and dynamic condition visuals.",
             imgSrc: "./Realezi.png",
             liveLink: "realezi-frontend-project.vercel.app",
             githubLink: "https://github.com/huzef2002/realezi-frontend-project",
@@ -44,14 +49,14 @@ function Project() {
                     return (
                         <div className='col md:flex justify-center items-center gap-20 h-full w-full my-10 top-0 bottom-0'>
 
-                            <div className='md:w-130 md:ms-40 flex justify-center items-center mx-10'>
+                            <div className='md:w-150 md:ms-40 flex justify-center items-center mx-10'>
                                 <div className="h-full w-full">
                                     <div className="w-full h-11 rounded-t-lg bg-gray-200 flex justify-start items-center space-x-1.5 px-3">
                                         <span className="w-3 h-3 rounded-full bg-red-400"></span>
                                         <span className="w-3 h-3 rounded-full bg-yellow-400"></span>
                                         <span className="w-3 h-3 rounded-full bg-green-400"></span>
                                     </div>
-                                    <div className="bg-gray-100 border-t-0 w-full md:h-140 h-70">
+                                    <div className="bg-gray-100 border-t-0 w-full md:h-96 h-60">
                                         <img className=" top-0 h-full w-full" src={Items.imgSrc}></img>
                                     </div>
                                 </div>
